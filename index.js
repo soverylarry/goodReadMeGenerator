@@ -68,9 +68,7 @@ const questions = [{
 function writeToFile(fileName, data) {
 }
 
-// function fetchUser (username){
-//     return axios.get()
-// }
+
 function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
   }
@@ -93,14 +91,3 @@ function init() {
 
 init();
 
-//requires inquirer for user data, etc.
-//fs to make a new file
-//path to know folder structure
-//const generate markdown = require (generateMarkdown.js) designs ReadME (HTML design inside of JS)
-//fuction that makes API call to GitHub username and profile image
-
-
-//need .env file for API call to GitHub for the above
-//need dotenv file
-//need fuction to write everything to a file
-//need an ask questions file and pulls all together
