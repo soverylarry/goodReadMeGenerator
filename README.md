@@ -1,14 +1,14 @@
 
-  # ReadMe-Generator
-<img alt="GitHub" src="https://img.shields.io/github/license/bpr59/ReadMe_Generator?style=flat-square"><img alt="npm" src="https://img.shields.io/npm/v/fs?style=flat-square">
-## GitHub Username: soverylarry
-## Project Title: asdf
-## Project Description: asdf
-## Installation Requirements: npm i
-## Usage: asdf
-## Licenses: GPL 3.0
-## Contributors: asdf
-## Testing Requirements: asdf
-### GitHub pic: undefined
-### Github Email: undefined
+# ReadMe-Generator 
+![GitHub top language](https://img.shields.io/github/languages/top/soverylarry/goodReadMeGenerator)![GitHub](https://img.shields.io/github/license/soverylarry/goodReadMeGenerator)
 
+## GitHub Username:   soverylarry
+## Project Title:     asdfasdfasd
+## Project Description:        afasdf
+### Installation Requirements: adfasdf
+### Usage:    adfasdf
+### Licenses: GPL 3.0
+### Contributors:         adfasdf
+### Testing Requirements: adfasdf
+### GitHub pic: <img alt="D'oh!" src="assets/LLBridgeReduced.png">
+### To email developer: soverylarry@gmail.com

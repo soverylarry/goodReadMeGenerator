@@ -38,23 +38,23 @@ const questions = [{
 },
 {
     type: "list",
-    message: "What kind of license should your project have?",
+    message: "Please list applicable licenses?",
     name: "license",
-    choices: ["GPL 3.0", "BSD 3", "None"]
+    choices: ["GPL 3.0", "BSD 3", "MIT", "None"]
 },
 {
     type: "input",
-    message: "Enter collaborators with links to their github profile",
+    message: "Enter collaborators on this project",
     name: "collab"
 },
 {
     type: "input",
-    message: "Please enter testing requirements?",
+    message: "Please enter testing requirements",
     name: "testing"
 },
 {
     type: "input",
-    message: "Please enter your email address?",
+    message: "Please enter your email address",
     name: "email"
 },
 {
@@ -62,7 +62,6 @@ const questions = [{
     message: "Please enter your github image?",
     name: "picture"
 }
-
 ];
 
 function writeToFile(fileName, data) {
@@ -71,7 +70,7 @@ function writeToFile(fileName, data) {
 
 function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
-  }
+}
 
 
 function init() {
@@ -82,8 +81,8 @@ function init() {
         axios.get(`https://api.github.com/users/${userName}`)
             .then(questions => {
                 console.log(questions.data);
-        writeToFile("README.md", generateMarkdown({ ...inQresponse, ...questions }))
-          
+                writeToFile("README.md", generateMarkdown({ ...inQresponse, ...questions }))
+
             });
         generateMarkdown(inQresponse)
     });
