@@ -31,3 +31,7 @@
 ### Testing Requirements: run index.js, answer questions, review readme
 ### GitHub pic: <img alt="D'oh!" src="assets/LLBridgeReduced.png">
 ### To email developer: soverylarry@gmail.com
+
+GitHub repo link: https://github.com/soverylarry/goodReadMeGenerator/
+
+Google Drive Video Link: https://drive.google.com/file/d/1B7Y2CzSQ8KY0YLdaip49DZ2Tm643bhoE/view
