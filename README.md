@@ -4,6 +4,8 @@
 
 ## Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command: Node index.JS The user will be prompted for their GitHub username and other information pertaining to the project the README is for and followed by a generated ReadME file.
 
+<img src="https://github.com/soverylarry/goodReadMeGenerator/blob/master/assets/readme.png">
+
 ## The README will be populated with the following:
 
 ### * At least one badge
